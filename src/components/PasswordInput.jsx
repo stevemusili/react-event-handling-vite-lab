@@ -3,7 +3,7 @@
 function PasswordInput (){
     return(
         <>
-        <input type="password" name="password" id="password" />
+        <input type="password" name="password" id="password" onChange={handleChange} />
         
         </>
     )
