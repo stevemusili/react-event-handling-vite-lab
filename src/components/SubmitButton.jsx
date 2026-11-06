@@ -2,7 +2,9 @@
 
 function SubmitButton (){
     return(
-        <></>
+        <>
+        <button type="submit">Submit Password</button>
+        </>
     )
 }
 

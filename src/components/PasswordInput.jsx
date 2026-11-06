@@ -2,7 +2,10 @@
 
 function PasswordInput (){
     return(
-        <></>
+        <>
+        <input type="password" name="password" id="password" />
+        
+        </>
     )
 }
 
