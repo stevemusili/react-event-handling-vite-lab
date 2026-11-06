@@ -1,10 +1,17 @@
 // Code PasswordInput Component Here
 
 function PasswordInput (){
+    function handleChange() {
+        console.log("Entering password...");
+    }
     return(
         <>
-        <input type="password" name="password" id="password" onChange={handleChange} />
-        
+        <input 
+            type="password" 
+            name="password" 
+            id="password" 
+            onChange={handleChange} 
+        />
         </>
     )
 }

@@ -1,6 +1,13 @@
 // Code SubmitButton Component Here
 
 function SubmitButton() {
+    function handleMouseEnter() {
+        console.log("Mouse Entering");
+    }
+    function handleMouseLeave() {
+        console.log("Mouse Exiting");
+        
+    }
   return (
     <>
       <button 
